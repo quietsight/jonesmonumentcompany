@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+}
+
+html { 
+  background: url(images/flowers.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+	padding: 0;
+	border: 0;
+	zoom: 1;
+	height: 100%;
+}
+
+body {
+  font: 400 .9em/1.38 Vollkorn;
+  color: rgb(0,0,0);
+  max-width: 100%;
+  min-width: 640px;
+  margin: 0 auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -108px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+.logo:hover {
+	opacity: .7;
+}
+
+.nav-wrap {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  min-width: 640px;
+  max-width: 800px;
+  height: 33px;
+  margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.blockwrap {
+	position: relative;
+	top: 120px;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.blockhead {
+	font-size: 2em;
+	font-weight: 400;
+    line-height: 1.38;
+    text-align: center;
+}
+
+.blocktext {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px
+}
+
+.contact {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 82.5278810408%;
+  z-index: 4;
+  font-size: 1.5em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.gallery {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 64.3209417596%;
+  z-index: 3;
+  font-size: 1.5em;
+  line-height: 1.38;
+  color: rgba(255, 255, 255);
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.5692379182%;
+  z-index: 5;
+  width: 150px;
+  height: auto;
+  margin: auto 0;
+  overflow: hidden;
+}
+
+
+
+.navbg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  background-color: rgba(150, 200, 250, 0.89);
+}
+
+.navbg-wrap {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 100%;
+  height: 166px;
+}
+
+.qsv-container {
+  position: relative;
+  width: 101.6949152542%;
+  height: 170px;
+  margin:  auto;
+}
+
+.qsv-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  width: 68.8524590163%;
+  margin: 0 auto;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0,0,0);
+}
+
+.qsv-text {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  width: 68.8524590163%;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+.qsv-text p {
+  margin-bottom: 1em;
+}
+
+.qsv-wrap {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 10px 10px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.services {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 28.6245353159%;
+  z-index: 2;
+  font-size: 1.5em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+#footer {
+	display: table;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	background: rgba(101, 173, 232, .8);
+	color: white;
+	margin-top: 10px;
+}
+
+.footerblock {
+	width: 650px;
+	margin-left: 215px;
+}
+
+.footeritem {
+	float: left;
+	width: 250px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.socialimg {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	margin-top: -10px;
+	vertical-align: middle;
+}
+
+#footer a:link {
+	color: white;
+}
+
+#footer a:hover {
+	color: red;
+}
+
+#footer a:visited {
+	color: white;
+}
+
+.footercontact {
+	margin-top: 10px;
+}
+
+.footersocial {
+	margin-top: 15px;
+}
+
+.footerlinks {
+	width: 70px;
+}
+
+.footer, .push {
+	height: 108px;
+}
